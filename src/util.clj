@@ -1,10 +1,6 @@
-(ns util)
-
-(ns main
+(ns util
   (:require [babashka.process :refer [sh shell process exec]]
-            [clojure.tools.reader.edn :as edn]
-            [databricks :as db]
-            [script :as s]))
+            [clojure.tools.reader.edn :as edn]))
 
 (def METER_INCH_RATIO 39.37)
 

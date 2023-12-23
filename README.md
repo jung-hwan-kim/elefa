@@ -2,8 +2,9 @@
 
 Environment: MacOS 
 
-How to run
+How to run:
 ```zsh
 bb -x battery-mon/run -t 1
 bb -x logseq/run -v Ava
 ```
+or just use repl~
